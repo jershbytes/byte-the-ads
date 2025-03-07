@@ -16,7 +16,7 @@ ADLISTS=(
 )
 
 # File to store the consolidated list
-OUTPUT_FILE="$(dirname "$0")/byte-the-ads.txt"
+OUTPUT_FILE="$(dirname "$0")/blocklist.txt"
 
 # Temporary file for processing
 TEMP_FILE=$(mktemp)
